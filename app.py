@@ -1,4 +1,11 @@
-from flask import Flask, render_template
+import os
+from flask import (
+    Flask,
+    render_template,
+    jsonify,
+    request,
+    redirect)
+from flask_cors import CORS
 
 app = Flask(__name__)
 
@@ -43,4 +50,4 @@ def graph_d():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

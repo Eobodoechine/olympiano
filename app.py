@@ -2,10 +2,7 @@ import os
 from flask import (
     Flask,
     render_template,
-    jsonify,
-    request,
-    redirect)
-from flask_cors import CORS
+    request)
 
 app = Flask(__name__)
 

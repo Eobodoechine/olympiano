@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Third Chart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Olympics Visualization Hub</a>
+    <a href="Overview.html">Overview</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="DataViz.html">Data</a>
+    <div class="dropdown">
+      <button class="dropbtn"> Graphs
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="GraphA.html">Graph A</a>
+        <a href="GraphB.html">Graph B</a>
+        <a href="GraphC.html">Graph C</a>
+        <a href="GraphD.html">Graph D</a>
+        <a href="GraphE.html">Graph E</a>
+        <a href="GraphF.html">Graph F</a>
+        <a href="GraphG.html">Graph G</a>
+        <a href="GraphH.html">Graph H</a>
+      </div>
+    </div> 
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+<!-- Footer Section -->
+<footer>
+  <div class="footer">Project Members: Shailja Mathur, Damiso Hutchinson, Jungkyu kim, Emmanuel Nnamdi Obodoechine, Felix Ogbodu, Nwagbo Chidozie, David Wu</div>
+</footer> 
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+<div class='tableauPlaceholder' id='viz1629857424509' style='position: relative'><noscript><a href='#'><img alt='Mens 100m Actual vs Predicted (R squared = .71) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dh&#47;dh_linear_regression&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dh_linear_regression&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dh&#47;dh_linear_regression&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1629857424509');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<!--<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div id="scatter-plot"></div>
+<script src="dataGraphC.js"></script>
+<script src="plotGraphC.js"></script>-->
+  
+  </body>
+  </html>

@@ -7,7 +7,7 @@ from flask import (
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/index.html')
 def index():
     return render_template("index.html")
 
@@ -44,6 +44,14 @@ def graph_c():
 @app.route('/GraphD.html')
 def graph_d():
     return render_template("GraphD.html")
+
+@app.route('/GraphE.html')
+def graph_e():
+    return render_template("GraphE.html")
+
+@app.route('/GraphF.html')
+def graph_f():
+    return render_template("GraphF.html")
 
 
 if __name__ == '__main__':

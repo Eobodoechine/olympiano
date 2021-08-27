@@ -12,36 +12,36 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/overview')
+@app.route('/Overview.html')
 def overview():
     return render_template("Overview.html")
 
 
-@app.route('/about_us')
+@app.route('/AboutUs.html')
 def about_us():
     return render_template("AboutUs.html")
 
 
-@app.route('/data_viz')
+@app.route('/DataViz.html')
 def data_viz():
     return render_template("DataViz.html")
 
 
-@app.route('/graph_a')
+@app.route('/GraphA.html')
 def graph_a():
     return render_template("GraphA.html")
 
 
-@app.route('/graph_b')
+@app.route('/GraphB.html')
 def graph_b():
     return render_template("GraphB.html")
 
 
-@app.route('/graph_c')
+@app.route('/GraphC.html')
 def graph_c():
     return render_template("GraphC.html")
 
-@app.route('/graph_d')
+@app.route('/GraphD.html')
 def graph_d():
     return render_template("GraphD.html")
 
